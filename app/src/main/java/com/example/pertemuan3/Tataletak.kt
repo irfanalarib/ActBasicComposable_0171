@@ -79,3 +79,21 @@ fun TataletakColumnRow(modifier: Modifier) {
         }
     }
 }
+
+@Composable
+fun TataletakRowColumn(modifier: Modifier) {
+    Row(modifier = modifier.fillMaxWidth(),horizontalArrangement = Arrangement.SpaceEvenly){
+        //kolom 1
+        Column(){
+            Text(text = "Komponen1 kolom 1")
+            Text(text = "Komponen2 kolom 1")
+            Text(text = "Komponen3 kolom 1")
+        }
+        //kolom 2
+        Column(){
+            Text(text = "Komponen1 kolom 2")
+            Text(text = "Komponen2 kolom 2")
+            Text(text = "Komponen3 kolom 2")
+        }
+    }
+}
