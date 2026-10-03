@@ -39,6 +39,13 @@ fun TugasPraktikum (modifier : Modifier = Modifier){
             )
 
             Spacer(modifier = Modifier.height(20.dp))
+
+            Text (
+                text = "Username",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
         }
 
     }
