@@ -13,5 +13,10 @@ fun TugasPraktikum (modifier : Modifier = Modifier){
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )
+        Column(
+            modifier = Modifier.fillMaxSize(),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally
+        )
     }
 }
