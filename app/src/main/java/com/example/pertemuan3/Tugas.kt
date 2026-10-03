@@ -17,6 +17,14 @@ fun TugasPraktikum (modifier : Modifier = Modifier){
             modifier = Modifier.fillMaxSize(),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
-        )
+        ){
+            Text (
+                text = "Selamat Datang",
+                color = Color.White,
+                fontSize = 40.sp,
+                fontWeight = FontWeight.Bold
+            )
+        }
+
     }
 }
