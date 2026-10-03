@@ -6,6 +6,12 @@ import androidx.compose.ui.Modifier
 @Composable
 fun TugasPraktikum (modifier : Modifier = Modifier){
     Box(modifier = modifier.fillMaxSize()){
-        
+
+        Immage(
+            painter = painterResource(id = R.drawable.graybackground),
+            contentDescription = "Background Image",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
     }
 }
