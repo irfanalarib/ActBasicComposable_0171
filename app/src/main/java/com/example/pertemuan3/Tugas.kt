@@ -30,6 +30,7 @@ fun TugasPraktikum (modifier : Modifier = Modifier){
                 fontSize = 20.sp,
                 color = Color.White
             )
+            Spacer(modifier = Modifier.height(30.dp))
         }
 
     }
