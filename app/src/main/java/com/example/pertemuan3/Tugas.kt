@@ -46,6 +46,13 @@ fun TugasPraktikum (modifier : Modifier = Modifier){
                 fontWeight = FontWeight.Bold,
                 color = Color.White
             )
+
+            Text (
+                text = "Muhamad Irfan Al Arib",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
         }
 
     }
