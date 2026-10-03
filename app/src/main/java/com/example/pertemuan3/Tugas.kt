@@ -31,6 +31,12 @@ fun TugasPraktikum (modifier : Modifier = Modifier){
                 color = Color.White
             )
             Spacer(modifier = Modifier.height(30.dp))
+
+            Image (
+                painter = painterResource(id = R.drawable.logoumy),
+                contentDescription = "Logo UMY",
+                modifier = Modifier.size(150.dp)
+            )
         }
 
     }
