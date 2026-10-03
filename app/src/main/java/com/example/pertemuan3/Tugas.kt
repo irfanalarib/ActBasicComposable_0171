@@ -60,6 +60,15 @@ fun TugasPraktikum (modifier : Modifier = Modifier){
                 fontWeight = FontWeight.Bold,
                 color = Color.White
             )
+
+            Image (
+                painter = painterResource(id = R.drawable.irfanprofile),
+                contentDescription = "Foto Profile",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier.size(150.dp)
+                    .clip(CircleShape)
+                    .border(4.dp, Color.White, CircleShape)
+            )
         }
 
     }
