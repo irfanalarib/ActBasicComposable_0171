@@ -24,6 +24,12 @@ fun TugasPraktikum (modifier : Modifier = Modifier){
                 fontSize = 40.sp,
                 fontWeight = FontWeight.Bold
             )
+
+            Text (
+                text = "ini adalah halaman login",
+                fontSize = 20.sp,
+                color = Color.White
+            )
         }
 
     }
