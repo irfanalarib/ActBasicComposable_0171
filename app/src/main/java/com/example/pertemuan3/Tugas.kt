@@ -56,7 +56,7 @@ fun TugasPraktikum (modifier : Modifier = Modifier){
 
             Text (
                 text = "20240140171",
-                fontSize = 60.sp,
+                fontSize = 16.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.White
             )
