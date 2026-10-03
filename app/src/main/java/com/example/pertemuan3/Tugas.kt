@@ -37,6 +37,8 @@ fun TugasPraktikum (modifier : Modifier = Modifier){
                 contentDescription = "Logo UMY",
                 modifier = Modifier.size(150.dp)
             )
+
+            Spacer(modifier = Modifier.height(20.dp))
         }
 
     }
